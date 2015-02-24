@@ -1,0 +1,20 @@
+﻿<Window x:Class="Chirag_Art.Login"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Login" Height="294.681" Width="558.511" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Button Content="Login" HorizontalAlignment="Left" VerticalAlignment="Top" Width="96" Margin="383,174,0,0" Height="26" Click="Button_Click"/>
+        <Grid HorizontalAlignment="Left" Height="119" VerticalAlignment="Top" Width="551">
+            <Image Source="F:\Dropbox\Dropbox\OOSE Project\login.jpg" Width="550" Height="400" Margin="0,-50,0,0">
+                
+            </Image>
+            <TextBox x:Name="user_name" HorizontalAlignment="Left" Height="26" TextWrapping="Wrap" VerticalAlignment="Top" Width="182" Margin="185,143,0,-50" TextChanged="TextBox_TextChanged"/>
+            <Label Content="User name:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="111,143,0,-50"/>
+        </Grid>
+        <Label Content="Password:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="118,174,0,0"/>
+        <PasswordBox x:Name="pass" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="186,174,0,0" Height="26
+                     " Width="181"/>
+        <PasswordBox HorizontalAlignment="Left" Height="0" Margin="209,181,0,0" VerticalAlignment="Top" Width="0"/>
+
+    </Grid>
+</Window>

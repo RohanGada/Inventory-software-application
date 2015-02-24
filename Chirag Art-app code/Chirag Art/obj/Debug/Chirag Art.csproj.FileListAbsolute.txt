@@ -1,0 +1,34 @@
+F:\Dropbox\Dropbox\Demo-ing\Chirag Art\Chirag Art\bin\Debug\Chirag Art.exe.config
+F:\Dropbox\Dropbox\Demo-ing\Chirag Art\Chirag Art\bin\Debug\Chirag Art.exe
+F:\Dropbox\Dropbox\Demo-ing\Chirag Art\Chirag Art\bin\Debug\Chirag Art.pdb
+F:\Dropbox\Dropbox\Demo-ing\Chirag Art\Chirag Art\obj\Debug\Chirag Art.csprojResolveAssemblyReference.cache
+F:\Dropbox\Dropbox\Demo-ing\Chirag Art\Chirag Art\obj\Debug\MainWindow.baml
+F:\Dropbox\Dropbox\Demo-ing\Chirag Art\Chirag Art\obj\Debug\MainWindow.g.cs
+F:\Dropbox\Dropbox\Demo-ing\Chirag Art\Chirag Art\obj\Debug\App.g.cs
+F:\Dropbox\Dropbox\Demo-ing\Chirag Art\Chirag Art\obj\Debug\Chirag Art_MarkupCompile.cache
+F:\Dropbox\Dropbox\Demo-ing\Chirag Art\Chirag Art\obj\Debug\Chirag Art.g.resources
+F:\Dropbox\Dropbox\Demo-ing\Chirag Art\Chirag Art\obj\Debug\Chirag_Art.Properties.Resources.resources
+F:\Dropbox\Dropbox\Demo-ing\Chirag Art\Chirag Art\obj\Debug\Chirag Art.csproj.GenerateResource.Cache
+F:\Dropbox\Dropbox\Demo-ing\Chirag Art\Chirag Art\obj\Debug\Chirag Art.exe
+F:\Dropbox\Dropbox\Demo-ing\Chirag Art\Chirag Art\obj\Debug\Chirag Art.pdb
+F:\Dropbox\Dropbox\Demo-ing\Chirag Art\Chirag Art\obj\Debug\CreateItem.baml
+F:\Dropbox\Dropbox\Demo-ing\Chirag Art\Chirag Art\obj\Debug\CreateItem.g.cs
+F:\Dropbox\Dropbox\OOSE Project\Chirag Art\Chirag Art\bin\Debug\Chirag Art.exe.config
+F:\Dropbox\Dropbox\OOSE Project\Chirag Art\Chirag Art\obj\Debug\Chirag Art.exe
+F:\Dropbox\Dropbox\OOSE Project\Chirag Art\Chirag Art\obj\Debug\Chirag Art.pdb
+F:\Dropbox\Dropbox\OOSE Project\Chirag Art\Chirag Art\bin\Debug\Chirag Art.exe
+F:\Dropbox\Dropbox\OOSE Project\Chirag Art\Chirag Art\bin\Debug\Chirag Art.pdb
+F:\Dropbox\Dropbox\OOSE Project\Chirag Art\Chirag Art\obj\Debug\Chirag Art.csprojResolveAssemblyReference.cache
+F:\Dropbox\Dropbox\OOSE Project\Chirag Art\Chirag Art\obj\Debug\CreateItem.baml
+F:\Dropbox\Dropbox\OOSE Project\Chirag Art\Chirag Art\obj\Debug\MainWindow.baml
+F:\Dropbox\Dropbox\OOSE Project\Chirag Art\Chirag Art\obj\Debug\CreateItem.g.cs
+F:\Dropbox\Dropbox\OOSE Project\Chirag Art\Chirag Art\obj\Debug\MainWindow.g.cs
+F:\Dropbox\Dropbox\OOSE Project\Chirag Art\Chirag Art\obj\Debug\App.g.cs
+F:\Dropbox\Dropbox\OOSE Project\Chirag Art\Chirag Art\obj\Debug\Chirag Art_MarkupCompile.cache
+F:\Dropbox\Dropbox\OOSE Project\Chirag Art\Chirag Art\obj\Debug\Chirag Art.g.resources
+F:\Dropbox\Dropbox\OOSE Project\Chirag Art\Chirag Art\obj\Debug\Chirag_Art.Properties.Resources.resources
+F:\Dropbox\Dropbox\OOSE Project\Chirag Art\Chirag Art\obj\Debug\Chirag Art.csproj.GenerateResource.Cache
+F:\Dropbox\Dropbox\OOSE Project\Chirag Art\Chirag Art\obj\Debug\Login.baml
+F:\Dropbox\Dropbox\OOSE Project\Chirag Art\Chirag Art\obj\Debug\Login.g.cs
+F:\Dropbox\Dropbox\OOSE Project\Chirag Art\Chirag Art\obj\Debug\dead stock.baml
+F:\Dropbox\Dropbox\OOSE Project\Chirag Art\Chirag Art\obj\Debug\dead stock.g.cs

@@ -1,0 +1,62 @@
+﻿<Window x:Class="Chirag_Art.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Chirag Art" Height="600" Width="1066" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.Background>
+            <RadialGradientBrush>
+                <GradientStop Color="#FF297FB0" Offset="0.978"/>
+                <GradientStop Color="White" Offset="0.63"/>
+            </RadialGradientBrush>
+        </Grid.Background>
+
+        <DockPanel Height="24" VerticalAlignment="Top" LastChildFill="False" Margin="0,0,270,0">
+            <Menu DockPanel.Dock="Top" Height="20" Margin="0,0,-542,0" ScrollViewer.HorizontalScrollBarVisibility="Hidden" HorizontalContentAlignment="Stretch">
+                <MenuItem Header="_Inventory" Click="MenuItem_Click">
+                    <MenuItem Header="_view"/>
+                    <MenuItem x:Name="create_items" Header="_Create items"/>
+                    <MenuItem Header="_Update items"/>
+                    <MenuItem Header="_Delete items"/>
+                </MenuItem>
+                <MenuItem x:Name="rpt" Header="Report" Click="rpt_Click">
+                    <MenuItem x:Name="dead_stock" Header="Dead stock"/>
+                </MenuItem>
+            </Menu>
+        </DockPanel>
+
+        <Button x:Name="logoff1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="57" Margin="14,31,0,0" Height="54" Click="logoff_but">
+            <StackPanel Orientation="Horizontal">
+                <Image x:Name="logoff" Source="F:\Dropbox\Dropbox\OOSE Project\Logoff.png" ContextMenuClosing="logoff_click1" />
+            </StackPanel>
+        </Button>
+
+        <Grid Height="408" VerticalAlignment="Top" Margin="96,91,65,0" Background="#FFF7F7F7">
+            <Button HorizontalAlignment="Left" VerticalAlignment="Top" Width="57" Margin="830,331,0,0" Height="54">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="F:\Dropbox\Dropbox\OOSE Project\printer.png" />
+                </StackPanel>
+            </Button>
+            <Button HorizontalAlignment="Left" VerticalAlignment="Top" Width="67" Margin="758,331,0,0" Height="54" Click="new_click">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="F:\Dropbox\Dropbox\OOSE Project\new.png" Height="46" Width="52" />
+                </StackPanel>
+            </Button>
+            <TextBox x:Name="billNo" HorizontalAlignment="Left" Height="22" TextWrapping="Wrap" VerticalAlignment="Top" Width="64" Margin="123,31,0,0" TextChanged="TextBox_TextChanged_1"/>
+            <Label Content="Bill number:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="41,27,0,0"/>
+            <Label Content="Barcode:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="58,72,0,0"/>
+            <TextBox x:Name="quant_amt" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="375,72,0,0"/>
+            <Label Content="Quantity:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="312,72,0,0"/>
+            <ComboBox x:Name="employee" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Margin="747,32,0,0"/>
+            <Label Content="Sales person:" HorizontalAlignment="Left" Margin="663,27,0,0" VerticalAlignment="Top"/>
+            <TextBox x:Name="timestamp" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="375,31,0,0" TextChanged="TextBox_TextChanged"/>
+            <Label Content="Bill timestamp:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="282,27,0,0"/>
+            <DataGrid x:Name="BillGrid" HorizontalAlignment="Left" VerticalAlignment="Top" Height="216" Width="638" Margin="41,120,0,0" SelectionChanged="BillGrid_SelectionChanged" ItemsSource="{Binding}"/>
+            <Button Content="Add item" HorizontalAlignment="Left" VerticalAlignment="Top" Width="82" Margin="530,72,0,0" Height="26" Click="Button_Click_1"/>
+            <TextBox x:Name="total_txt" HorizontalAlignment="Left" Height="65" TextWrapping="Wrap" VerticalAlignment="Top" Width="109" Margin="758,194,0,0" FontSize="18"/>
+            <Label Content="GRAND TOTAL:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="758,163,0,0"/>
+            <Button Content="Preview bill" HorizontalAlignment="Left" VerticalAlignment="Top" Width="88" Margin="654,356,0,0" Click="Preview_bill" Height="29"/>
+            <Button x:Name="DataDisplay" Content="Display" HorizontalAlignment="Left" VerticalAlignment="Top" Width="88" Margin="560,356,0,0" Click="DataDisplay_Click" Height="29"/>
+        </Grid>
+        <ComboBox x:Name="barcodeNo" IsEditable="true" TextSearch.TextPath="foo" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Margin="222,166,0,0" SelectionChanged="ComboBox_SelectionChanged"/>
+    </Grid>
+</Window>
